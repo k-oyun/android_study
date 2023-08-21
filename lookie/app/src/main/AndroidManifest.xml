@@ -12,37 +12,30 @@
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
         <activity
-            android:name=".Intent2"
-            android:exported="false" >
-
-
-        </activity>
-
-
-        <activity
-            android:name=".Intent1"
-            android:exported="true">
+            android:name=".OpenInternet"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-
+        <activity
+            android:name=".Intent2"
+            android:exported="false"></activity>
+        <activity
+            android:name=".Intent1"
+            android:exported="false">
+        </activity>
         <activity
             android:name=".Calculator"
-            android:exported="true">
-
-        </activity>
-
-
+            android:exported="false"></activity>
         <activity
             android:name=".Listner"
-            android:exported="true" />
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="true" />
+            android:exported="false" />
     </application>
 
 </manifest>
